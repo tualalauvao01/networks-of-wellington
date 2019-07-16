@@ -43,13 +43,14 @@ nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
-
+.module{
+	border-image: 25 25 round;
+}
 
 /* Simple grid */
 .g-row{
 	width: 100%;
 	overflow: hidden;
-	border-image: 25 25 round;
 }
 
 .g-row img{
