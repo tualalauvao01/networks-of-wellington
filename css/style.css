@@ -43,15 +43,11 @@ nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
-.module{
-	border-image: "img/cam1.jpg" 25 25 round;
-
-}
-
 /* Simple grid */
 .g-row{
 	width: 100%;
 	overflow: hidden;
+	border-style: solid;
 }
 
 .g-row img{
