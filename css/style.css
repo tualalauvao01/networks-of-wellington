@@ -6,7 +6,7 @@
 
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
-	font-family: sans-serif;
+	font-family: monospace;
 }
 
 section{
@@ -49,6 +49,7 @@ nav a:hover{
 .g-row{
 	width: 100%;
 	overflow: hidden;
+	border-image: 25 25 round;
 }
 
 .g-row img{
