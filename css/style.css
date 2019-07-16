@@ -44,7 +44,8 @@ nav a:hover{
 }
 
 .module{
-	border-image: 25 25 round;
+	border-image: "img/cam1.jpg" 25 25 round;
+
 }
 
 /* Simple grid */
