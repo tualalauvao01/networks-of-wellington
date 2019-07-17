@@ -2,11 +2,16 @@
 	box-sizing: border-box; 
 	/* This makes the widths of elements more consistent
 		Full details here https://css-tricks.com/box-sizing/ */
+
+}
+html{
+	background-color: beige;
 }
 
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
-	font-family: monospace;
+    font-family: 'Fanwood Text', Serif;
+    font-size: 18px;
 }
 
 section{
@@ -17,8 +22,14 @@ section{
 	margin-bottom: 20px;
 }
 
+section h1{
+	color: darkOrange;
+	font-family: 'Shrikhand', Cursive;
+    font-size: 48px
+}
+
 header{
-	background-color: darkOrange;
+	background-color: teal;
 	color: white; /* more readable on an orange background */
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -27,7 +38,7 @@ header{
 nav{
 	width: 100%;
 	height: 60px;
-	background-color: wheat;
+	background-color: beige;
 }
 
 nav a, nav h3{
